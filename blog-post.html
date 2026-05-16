@@ -1,0 +1,307 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Designing DART studies that survive agency review — BioVeritas CRO</title>
+  <meta name="description" content="A practical checklist for reproductive and developmental toxicity protocols under OECD 414 and 416 — by Dr. A. Rao, Head of Toxicology, BioVeritas CRO." />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Newsreader:ital,opsz,wght@0,6..72,400;0,6..72,500;0,6..72,600;1,6..72,500&family=Geist:wght@300;400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body data-page="blog">
+
+  <div id="site-header"></div>
+
+  <main>
+
+    <section class="page-hero" style="padding-bottom: 30px;" data-screen-label="Post hero">
+      <div class="wrap">
+        <div class="crumb">
+          <a href="index.html">Home</a><span class="sep">/</span>
+          <a href="blog.html">Insights</a><span class="sep">/</span>
+          <span class="here">DART study design</span>
+        </div>
+
+        <div class="post-head">
+          <div class="post-meta">
+            <span>12 May 2026</span><span class="sep">·</span>
+            <span>9 min read</span><span class="sep">·</span>
+            <span style="color:var(--accent);">Regulatory</span>
+          </div>
+          <h1>Designing DART studies that <span class="em" style="font-style:italic;color:var(--accent);">survive agency review.</span></h1>
+          <p class="lead" style="margin-top:18px;">
+            A practical checklist for reproductive and developmental toxicity protocols under OECD 414 and 416 —
+            where novel-product programs most often get it wrong, and how to avoid the rewrites.
+          </p>
+          <div class="author">
+            <div class="avi">AR</div>
+            <div>
+              <div class="name">Dr. A. Rao</div>
+              <div class="title-row">Head, Toxicology · BioVeritas CRO</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section data-screen-label="Article body">
+      <div class="wrap">
+        <div class="two-col-l">
+
+          <aside class="sidebar">
+            <div class="side-card">
+              <h5>Contents</h5>
+              <nav class="toc">
+                <a href="#why" class="active">Why DART trips programs up</a>
+                <a href="#scope">Defining the right scope</a>
+                <a href="#species">Choosing the species</a>
+                <a href="#dose">Dose selection</a>
+                <a href="#endpoints">Endpoint set</a>
+                <a href="#stats">Statistical considerations</a>
+                <a href="#pitfalls">Five common pitfalls</a>
+                <a href="#checklist">A pre-submission checklist</a>
+              </nav>
+            </div>
+
+            <div class="side-card">
+              <h5>Share</h5>
+              <div style="display:flex;gap:8px;">
+                <button class="btn btn-ghost" style="flex:1;font-size:12.5px;padding:8px 12px;">Copy link</button>
+                <button class="btn btn-ghost" style="flex:1;font-size:12.5px;padding:8px 12px;">LinkedIn</button>
+              </div>
+            </div>
+
+            <div class="side-card" style="background:var(--ink);color:#fff;border-color:var(--ink);">
+              <h5 style="color:rgba(255,255,255,0.6);">Need DART support?</h5>
+              <p style="font-size:14px;color:rgba(255,255,255,0.85); margin-bottom:14px;">Our team designs and runs OECD 414, 416, 421, 422, and 443 programs.</p>
+              <a class="btn btn-accent" href="contact.html" style="width:100%;justify-content:center;font-size:13.5px;">Talk to us</a>
+            </div>
+          </aside>
+
+          <article class="article" style="max-width:none;">
+
+            <figure>
+              <div class="ph"><div class="stripes"></div></div>
+              <figcaption>/ Figure 1 — DART program decision tree, simplified</figcaption>
+            </figure>
+
+            <p class="lede">
+              Of the regulatory rewrites we see across pre-IND meetings, reproductive and developmental
+              toxicity protocols come up more often than any other safety package. Not because the science
+              is unsettled — it isn't — but because programs underestimate just how many design decisions
+              the guidelines leave to the sponsor.
+            </p>
+
+            <h2 id="why">Why DART trips programs up</h2>
+            <p>
+              Three structural reasons keep DART studies harder than they look. First, the relevant
+              guidelines (<strong>OECD 414, 416, 421, 422, 443</strong>) overlap in scope but differ in detail —
+              picking the wrong one looks identical at draft stage and obvious at submission. Second,
+              endpoint expectations have shifted faster than older protocol templates have updated.
+              Third, dose-justification logic for DART is more intricate than for general repeat-dose
+              tox, and reviewers expect rigorous defence.
+            </p>
+
+            <blockquote>
+              The most common DART rewrite is not the science — it's the protocol's failure to defend why this study, in this species, at these doses, answers the question the dossier needs answered.
+            </blockquote>
+
+            <h2 id="scope">Defining the right scope</h2>
+            <p>
+              Before opening a protocol template, write a single paragraph stating: <strong>what
+              regulatory question does this study answer?</strong> If the answer is generic ("characterise reproductive
+              toxicity"), you're not ready to design the study. The useful version sounds like:
+            </p>
+            <ul>
+              <li>"Demonstrate absence of teratogenicity at clinically relevant exposures in two species" — points to <strong>OECD 414</strong>.</li>
+              <li>"Characterise effects across two generations to support chronic dietary exposure" — points to <strong>OECD 416 or 443</strong>.</li>
+              <li>"Screen for reproductive liability before committing to full DART package" — points to <strong>OECD 421 or 422</strong>.</li>
+            </ul>
+
+            <h2 id="species">Choosing the species</h2>
+            <p>
+              The default rat-rabbit pairing is right ~70% of the time and wrong the rest. Three checks before locking species:
+            </p>
+            <ol>
+              <li><strong>Metabolic relevance.</strong> Does the species form the major human metabolites? If not, defend why exposure-matching still answers the question.</li>
+              <li><strong>Sensitivity history.</strong> For known mechanism classes, prior literature often points to a more sensitive species — use it.</li>
+              <li><strong>Background incidence data.</strong> Choose strains where historical control data is robust enough to interpret marginal effects.</li>
+            </ol>
+
+            <h2 id="dose">Dose selection</h2>
+            <p>
+              The agencies expect three dose levels plus vehicle. The low dose should produce no
+              observable effects; the high dose should produce maternal toxicity (but not death). The
+              middle dose links the two and supports dose-response interpretation. Three rules of thumb
+              we apply:
+            </p>
+            <ul>
+              <li>Set the <strong>high dose</strong> against the 28-day repeat-dose MTD, not a multiple of clinical AUC.</li>
+              <li>Set the <strong>low dose</strong> at the clinically relevant exposure × safety margin (typically 1×).</li>
+              <li>Choose a <strong>middle dose</strong> at the geometric mean of high and low — not the arithmetic mean.</li>
+            </ul>
+
+            <div class="callout">
+              <div class="ci"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"><path d="M12 2v6m0 14v-2m9-9h-2M5 12H3"/><circle cx="12" cy="12" r="4"/></svg></div>
+              <div>
+                <h4>One thing we always do</h4>
+                <p>Run a non-GLP dose-range-finding (DRF) study before the GLP DART pivotal. Two weeks of DRF saves six weeks of GLP-study redesign if dose levels were wrong — and the regulators expect to see this justification anyway.</p>
+              </div>
+            </div>
+
+            <h2 id="endpoints">Endpoint set</h2>
+            <p>
+              The OECD 414 endpoint set is broad and not all of it is decision-relevant for every product.
+              That said, attempting to trim it without strong justification almost always backfires at
+              review. Our default endpoint matrix for OECD 414:
+            </p>
+
+            <table class="spec-table" style="margin: 28px 0;">
+              <thead>
+                <tr><th>Endpoint</th><th>Timepoint</th><th>Method</th></tr>
+              </thead>
+              <tbody>
+                <tr><td class="name">Maternal body weight</td><td>Daily GD 5 – 20</td><td>Calibrated scale</td></tr>
+                <tr><td class="name">Maternal food consumption</td><td>Every 3 days</td><td>Pre/post weighing</td></tr>
+                <tr><td class="name">Clinical observations</td><td>Twice daily</td><td>Cage-side</td></tr>
+                <tr><td class="name">Corpora lutea / implantation sites</td><td>GD 20</td><td>Necropsy</td></tr>
+                <tr><td class="name">Pre/post-implantation loss</td><td>GD 20</td><td>Calculated</td></tr>
+                <tr><td class="name">Fetal body weight</td><td>GD 20</td><td>Individual</td></tr>
+                <tr><td class="name">External malformations</td><td>GD 20</td><td>Examination</td></tr>
+                <tr><td class="name">Visceral examination</td><td>GD 20</td><td>~½ fetuses per litter</td></tr>
+                <tr><td class="name">Skeletal examination</td><td>GD 20</td><td>~½ fetuses (Alizarin)</td></tr>
+                <tr><td class="name">Toxicokinetic profile</td><td>GD 6 &amp; 17</td><td>LC-MS/MS</td></tr>
+              </tbody>
+            </table>
+
+            <h2 id="stats">Statistical considerations</h2>
+            <p>
+              DART endpoints are nested: fetus within litter within dam. <strong>Litter is the experimental unit</strong>, not the
+              fetus. Programs that analyse fetus-level data with no litter adjustment routinely overstate
+              effects and get reviewer queries. We always include the statistical analysis plan in the
+              protocol (not the report), pre-specify the unit of analysis, and use historical control data
+              when interpreting marginal findings.
+            </p>
+
+            <h2 id="pitfalls">Five common pitfalls</h2>
+            <ol>
+              <li><strong>Picking the wrong guideline.</strong> 422 looks cheaper than 414+416 but rarely satisfies a chronic-exposure dossier.</li>
+              <li><strong>Underpowered litter counts.</strong> Twenty pregnant dams per group is a floor, not a target — agencies expect 22 – 25 evaluable litters at minimum.</li>
+              <li><strong>Skipping toxicokinetics.</strong> Without TK data on GD 6 and GD 17, you can't defend exposure margins to either FDA or EMA.</li>
+              <li><strong>Treating maternal toxicity as a finding.</strong> It's a design parameter at the top dose, not an adverse outcome.</li>
+              <li><strong>Comparing only to concurrent controls.</strong> Historical control data from the same lab is essential for interpreting low-incidence anomalies.</li>
+            </ol>
+
+            <h2 id="checklist">A pre-submission checklist</h2>
+            <p>Before locking the protocol, run this checklist:</p>
+            <ul>
+              <li>The protocol opens with one sentence stating what regulatory question the study answers.</li>
+              <li>Species choice is justified with metabolic, sensitivity, and historical-data arguments.</li>
+              <li>Dose levels are justified against the 28-day MTD and clinical exposure, not in isolation.</li>
+              <li>The statistical analysis plan specifies "litter" as the unit of analysis.</li>
+              <li>Toxicokinetic sampling is included for GD 6 and GD 17 (or equivalent for 416).</li>
+              <li>Historical control data for the relevant strain is referenced and current (≤5 years).</li>
+              <li>A signed deviation procedure is in place before in-life starts.</li>
+              <li>QA has reviewed the protocol against OECD GLP and 21 CFR 58 before lock.</li>
+            </ul>
+
+            <p style="margin-top:36px;">
+              DART programs that follow this approach typically pass regulatory review without major
+              protocol queries — and when queries do come, they're substantive scientific questions rather
+              than rewrites. That is, ultimately, the goal: <strong>fewer rounds with the agency, faster path to clinic.</strong>
+            </p>
+
+            <div class="refs">
+              <h5>References</h5>
+              <ol>
+                <li><strong>OECD Test Guideline 414</strong> — Prenatal Developmental Toxicity Study, <code>OECD/OCDE</code>, 2018.</li>
+                <li><strong>OECD Test Guideline 416</strong> — Two-Generation Reproduction Toxicity Study, <code>OECD/OCDE</code>, 2001.</li>
+                <li><strong>ICH S5(R3)</strong> — Detection of Reproductive and Developmental Toxicity for Human Pharmaceuticals, <code>ICH</code>, 2020.</li>
+                <li><strong>OECD Test Guideline 443</strong> — Extended One-Generation Reproductive Toxicity Study, <code>OECD/OCDE</code>, 2018.</li>
+                <li><strong>EMA CHMP/SWP/Reproductive Toxicology</strong> — Guideline on risk assessment of medicinal products on human reproduction and lactation.</li>
+                <li>Historical control databases — strain-specific, last 5 years, internal records.</li>
+              </ol>
+            </div>
+
+          </article>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- ═══ MORE FROM BLOG ═══ -->
+    <section style="background:var(--soft); border-top:1px solid var(--line);" data-screen-label="More articles">
+      <div class="wrap">
+        <div class="section-head" style="margin-bottom: 40px;">
+          <div class="titles"><span class="eyebrow">More from Insights</span><h2>Keep reading.</h2></div>
+          <div></div>
+        </div>
+        <div class="insight-grid">
+          <a class="insight" href="blog-post.html">
+            <div class="thumb"><div class="stripes" style="--stripe-angle: 110deg;"></div><span class="badge">Bioanalysis</span></div>
+            <div class="body">
+              <div class="meta">28 April 2026 · 8 min read</div>
+              <h3>LC–MS/MS validation: where Q2 (R2) changes the playbook.</h3>
+              <p class="excerpt">What sponsors should renegotiate in method-validation agreements after the updated ICH guidance.</p>
+              <span class="read">Read article →</span>
+            </div>
+          </a>
+          <a class="insight" href="blog-post.html">
+            <div class="thumb"><div class="stripes" style="--stripe-angle: 30deg;"></div><span class="badge">Toxicology</span></div>
+            <div class="body">
+              <div class="meta">22 March 2026 · 7 min read</div>
+              <h3>NOAEL or BMD? Choosing the right point of departure.</h3>
+              <p class="excerpt">A pragmatic guide to when benchmark-dose modelling beats the traditional NOAEL.</p>
+              <span class="read">Read article →</span>
+            </div>
+          </a>
+          <a class="insight" href="blog-post.html">
+            <div class="thumb"><div class="stripes" style="--stripe-angle: 70deg;"></div><span class="badge">Operations</span></div>
+            <div class="body">
+              <div class="meta">10 April 2026 · 5 min read</div>
+              <h3>The case against transactional CRO engagements.</h3>
+              <p class="excerpt">Why scientific continuity from feasibility to filing changes both timelines and outcomes.</p>
+              <span class="read">Read article →</span>
+            </div>
+          </a>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <div id="site-footer"></div>
+  <div id="tweak-root"></div>
+
+  <script src="chrome.js"></script>
+  <script>
+    (function () {
+      const links = document.querySelectorAll('.side-card .toc a');
+      if (!links.length) return;
+      const map = new Map();
+      links.forEach(a => {
+        const id = a.getAttribute('href').slice(1);
+        const t = document.getElementById(id);
+        if (t) map.set(t, a);
+      });
+      const io = new IntersectionObserver(es => {
+        es.forEach(e => {
+          if (e.isIntersecting) {
+            links.forEach(l => l.classList.remove('active'));
+            const a = map.get(e.target);
+            if (a) a.classList.add('active');
+          }
+        });
+      }, { rootMargin: '-25% 0px -55% 0px' });
+      map.forEach((_, t) => io.observe(t));
+    })();
+  </script>
+  <script src="https://unpkg.com/react@18.3.1/umd/react.development.js" integrity="sha384-hD6/rw4ppMLGNu3tX5cjIb+uRZ7UkRJ6BPkLpg4hAu/6onKUg4lLsHAs9EBPT82L" crossorigin="anonymous"></script>
+  <script src="https://unpkg.com/react-dom@18.3.1/umd/react-dom.development.js" integrity="sha384-u6aeetuaXnQ38mYT8rp6sbXaQe3NL9t+IBXmnYxwkUI2Hw4bsp2Wvmx4yRQF1uAm" crossorigin="anonymous"></script>
+  <script src="https://unpkg.com/@babel/standalone@7.29.0/babel.min.js" integrity="sha384-m08KidiNqLdpJqLq95G/LEi8Qvjl/xUYll3QILypMoQ65QorJ9Lvtp2RXYGBFj1y" crossorigin="anonymous"></script>
+  <script type="text/babel" src="tweaks-panel.jsx"></script>
+  <script type="text/babel" src="app.jsx"></script>
+</body>
+</html>

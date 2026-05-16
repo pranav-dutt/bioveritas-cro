@@ -1,0 +1,225 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Insights — BioVeritas CRO</title>
+  <meta name="description" content="Peer-reviewed perspectives on study design, regulatory shifts, and the science behind better development decisions." />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Newsreader:ital,opsz,wght@0,6..72,400;0,6..72,500;0,6..72,600;1,6..72,500&family=Geist:wght@300;400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body data-page="blog">
+
+  <div id="site-header"></div>
+
+  <main>
+
+    <section class="page-hero" data-screen-label="Blog hero">
+      <div class="wrap">
+        <div class="crumb">
+          <a href="index.html">Home</a><span class="sep">/</span><span class="here">Insights</span>
+        </div>
+        <div class="ph-grid">
+          <div>
+            <span class="eyebrow">Insights &amp; research notes</span>
+            <h1 style="margin-top:22px;">Notes from the lab and the <span class="em">regulatory desk.</span></h1>
+            <p class="lead">
+              Practical perspectives on study design, regulatory shifts, and the science behind better
+              development decisions. Written by our scientists and consultant network.
+            </p>
+          </div>
+          <div class="ph-meta">
+            <div class="m"><span class="k">Cadence</span><span class="v">Bi-weekly</span></div>
+            <div class="m"><span class="k">Authors</span><span class="v">In-house + network</span></div>
+            <div class="m"><span class="k">Topics</span><span class="v">Tox · BA · Clinical · Reg</span></div>
+            <div class="m"><span class="k">Reading time</span><span class="v">5 – 12 min</span></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ═══ FEATURED ARTICLE ═══ -->
+    <section data-screen-label="Featured article">
+      <div class="wrap">
+        <a href="blog-post.html" style="display:grid;grid-template-columns: 1.1fr 1fr;gap:clamp(32px, 5vw, 64px); align-items:center; padding:36px; border:1px solid var(--line); border-radius:18px; background:var(--bg); transition: border-color 0.2s;" class="featured-article">
+          <div>
+            <div class="meta" style="font-family:var(--font-mono);font-size:11px;letter-spacing:0.12em;text-transform:uppercase;color:var(--accent);margin-bottom:18px;">Featured · 12 May 2026 · 9 min read</div>
+            <h2 style="margin-bottom:18px;">Designing DART studies that survive agency review.</h2>
+            <p class="lead" style="font-size:17px;">
+              A practical checklist for reproductive and developmental toxicity protocols under OECD 414 and 416.
+              Where novel-product programs most often get it wrong — and how to avoid the rewrites.
+            </p>
+            <div style="display:flex;align-items:center;gap:12px;margin-top:24px;">
+              <div style="width:34px;height:34px;border-radius:999px;background:color-mix(in oklab, var(--accent) 14%, transparent);color:var(--accent);display:grid;place-items:center;font-family:var(--font-display);font-size:14px;">AR</div>
+              <div>
+                <div style="font-size:13.5px;color:var(--ink);font-weight:500;">Dr. A. Rao</div>
+                <div style="font-family:var(--font-mono);font-size:10.5px;text-transform:uppercase;letter-spacing:0.1em;color:var(--muted);margin-top:1px;">Head, Toxicology</div>
+              </div>
+            </div>
+          </div>
+          <div style="aspect-ratio: 4/3; background: var(--soft); border: 1px solid var(--line); border-radius:14px; position:relative; overflow:hidden;">
+            <div style="position:absolute;inset:0;background-image:repeating-linear-gradient(35deg, color-mix(in oklab, var(--ink) 4%, transparent) 0 2px, transparent 2px 14px);"></div>
+            <span style="position:absolute;top:14px;left:14px;font-family:var(--font-mono);font-size:10.5px;letter-spacing:0.12em;text-transform:uppercase;background:var(--bg);border:1px solid var(--line);padding:5px 9px;border-radius:6px;color:var(--ink);">Regulatory</span>
+            <span style="position:absolute;bottom:14px;left:14px;font-family:var(--font-mono);font-size:11px;letter-spacing:0.12em;text-transform:uppercase;color:var(--muted);">/ DART · OECD 414/416</span>
+          </div>
+        </a>
+      </div>
+    </section>
+
+    <!-- ═══ ALL ARTICLES ═══ -->
+    <section data-screen-label="Article list">
+      <div class="wrap">
+        <div class="filter-bar">
+          <button class="pill active" data-filter="all">All</button>
+          <button class="pill" data-filter="tox">Toxicology</button>
+          <button class="pill" data-filter="bio">Bioanalysis</button>
+          <button class="pill" data-filter="clinical">Clinical</button>
+          <button class="pill" data-filter="regulatory">Regulatory</button>
+          <button class="pill" data-filter="quality">Quality</button>
+          <button class="pill" data-filter="industry">Industry</button>
+        </div>
+
+        <div class="insight-grid" id="blog-grid">
+
+          <a class="insight" data-tags="bio regulatory" href="blog-post.html">
+            <div class="thumb"><div class="stripes" style="--stripe-angle: 110deg;"></div><span class="badge">Bioanalysis</span></div>
+            <div class="body">
+              <div class="meta">28 April 2026 · 8 min read</div>
+              <h3>LC–MS/MS validation: where Q2 (R2) changes the playbook.</h3>
+              <p class="excerpt">What sponsors should renegotiate in method-validation agreements after the updated ICH guidance.</p>
+              <span class="read">Read article →</span>
+            </div>
+          </a>
+
+          <a class="insight" data-tags="quality industry" href="blog-post.html">
+            <div class="thumb"><div class="stripes" style="--stripe-angle: 70deg;"></div><span class="badge">Operations</span></div>
+            <div class="body">
+              <div class="meta">10 April 2026 · 5 min read</div>
+              <h3>The case against transactional CRO engagements.</h3>
+              <p class="excerpt">Why scientific continuity from feasibility to filing changes both timelines and outcomes.</p>
+              <span class="read">Read article →</span>
+            </div>
+          </a>
+
+          <a class="insight" data-tags="tox" href="blog-post.html">
+            <div class="thumb"><div class="stripes" style="--stripe-angle: 30deg;"></div><span class="badge">Toxicology</span></div>
+            <div class="body">
+              <div class="meta">22 March 2026 · 7 min read</div>
+              <h3>NOAEL or BMD? Choosing the right point of departure.</h3>
+              <p class="excerpt">A pragmatic guide to when benchmark-dose modelling beats the traditional no-observed-adverse-effect-level.</p>
+              <span class="read">Read article →</span>
+            </div>
+          </a>
+
+          <a class="insight" data-tags="clinical regulatory" href="blog-post.html">
+            <div class="thumb"><div class="stripes" style="--stripe-angle: 90deg;"></div><span class="badge">Clinical</span></div>
+            <div class="body">
+              <div class="meta">04 March 2026 · 11 min read</div>
+              <h3>First-in-human dosing: what 30 years of MABEL tells us.</h3>
+              <p class="excerpt">A reconciliation of MRSD, HED, and MABEL methods for setting the Phase I starting dose in 2026.</p>
+              <span class="read">Read article →</span>
+            </div>
+          </a>
+
+          <a class="insight" data-tags="quality" href="blog-post.html">
+            <div class="thumb"><div class="stripes" style="--stripe-angle: 50deg;"></div><span class="badge">Quality</span></div>
+            <div class="body">
+              <div class="meta">14 February 2026 · 6 min read</div>
+              <h3>ALCOA+ in practice: from acronym to inspection-ready.</h3>
+              <p class="excerpt">Concrete SOP patterns that turn data-integrity buzzwords into audit-passing reality.</p>
+              <span class="read">Read article →</span>
+            </div>
+          </a>
+
+          <a class="insight" data-tags="tox" href="blog-post.html">
+            <div class="thumb"><div class="stripes" style="--stripe-angle: 130deg;"></div><span class="badge">Toxicology</span></div>
+            <div class="body">
+              <div class="meta">28 January 2026 · 9 min read</div>
+              <h3>Reading the genotox battery: when one positive isn't a stop.</h3>
+              <p class="excerpt">Weight-of-evidence interpretation across Ames, in vitro micronucleus, and in vivo follow-ups.</p>
+              <span class="read">Read article →</span>
+            </div>
+          </a>
+
+          <a class="insight" data-tags="industry regulatory" href="blog-post.html">
+            <div class="thumb"><div class="stripes" style="--stripe-angle: 20deg;"></div><span class="badge">Regulatory</span></div>
+            <div class="body">
+              <div class="meta">12 January 2026 · 7 min read</div>
+              <h3>The 2026 DCGI consultation: what's actually changing.</h3>
+              <p class="excerpt">A working summary of the recent India regulatory consultation and its likely impact on clinical-trial timelines.</p>
+              <span class="read">Read article →</span>
+            </div>
+          </a>
+
+          <a class="insight" data-tags="bio" href="blog-post.html">
+            <div class="thumb"><div class="stripes" style="--stripe-angle: 80deg;"></div><span class="badge">Bioanalysis</span></div>
+            <div class="body">
+              <div class="meta">19 December 2025 · 8 min read</div>
+              <h3>Ligand-binding assays for biologics: validation that lasts.</h3>
+              <p class="excerpt">Matrix effects, parallelism, and selectivity — designing a validation that doesn't break at study sample 100.</p>
+              <span class="read">Read article →</span>
+            </div>
+          </a>
+
+          <a class="insight" data-tags="clinical" href="blog-post.html">
+            <div class="thumb"><div class="stripes" style="--stripe-angle: 100deg;"></div><span class="badge">Clinical</span></div>
+            <div class="body">
+              <div class="meta">02 December 2025 · 6 min read</div>
+              <h3>Decentralised elements in BA/BE: what regulators accept today.</h3>
+              <p class="excerpt">A pragmatic look at remote PK sampling and what it does (and doesn't) buy you on a generic timeline.</p>
+              <span class="read">Read article →</span>
+            </div>
+          </a>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- ═══ NEWSLETTER SIGNUP ═══ -->
+    <section class="cta-band compact" data-screen-label="Newsletter signup">
+      <div class="wrap cta-inner">
+        <div>
+          <span class="eyebrow" style="margin-bottom:18px;display:inline-flex;">Subscribe</span>
+          <h2>Get our bi-weekly research notes — direct to your inbox.</h2>
+          <p class="lead" style="margin-top:18px;">No fluff, no marketing — just practical guidance from working scientists. Unsubscribe anytime.</p>
+        </div>
+        <div style="display:flex;flex-direction:column;gap:12px;">
+          <div style="display:flex;gap:10px;">
+            <input type="email" placeholder="you@company.com" style="flex:1;padding:14px 18px;background:var(--bg);border:1px solid var(--line);border-radius:10px;font-family:inherit;font-size:15px;color:var(--ink);outline:none;min-width:240px;" />
+            <button class="btn btn-primary" style="padding:14px 22px;">Subscribe</button>
+          </div>
+          <div style="font-size:12.5px;color:var(--muted);">We'll only email you new BioVeritas research notes. ~2 per month.</div>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <div id="site-footer"></div>
+  <div id="tweak-root"></div>
+
+  <script src="chrome.js"></script>
+  <script>
+    (function () {
+      const pills = document.querySelectorAll('.filter-bar .pill');
+      const cards = document.querySelectorAll('#blog-grid .insight');
+      pills.forEach(p => p.addEventListener('click', () => {
+        pills.forEach(x => x.classList.remove('active'));
+        p.classList.add('active');
+        const f = p.dataset.filter;
+        cards.forEach(c => {
+          const tags = (c.dataset.tags || '').split(' ');
+          c.style.display = (f === 'all' || tags.includes(f)) ? '' : 'none';
+        });
+      }));
+    })();
+  </script>
+  <script src="https://unpkg.com/react@18.3.1/umd/react.development.js" integrity="sha384-hD6/rw4ppMLGNu3tX5cjIb+uRZ7UkRJ6BPkLpg4hAu/6onKUg4lLsHAs9EBPT82L" crossorigin="anonymous"></script>
+  <script src="https://unpkg.com/react-dom@18.3.1/umd/react-dom.development.js" integrity="sha384-u6aeetuaXnQ38mYT8rp6sbXaQe3NL9t+IBXmnYxwkUI2Hw4bsp2Wvmx4yRQF1uAm" crossorigin="anonymous"></script>
+  <script src="https://unpkg.com/@babel/standalone@7.29.0/babel.min.js" integrity="sha384-m08KidiNqLdpJqLq95G/LEi8Qvjl/xUYll3QILypMoQ65QorJ9Lvtp2RXYGBFj1y" crossorigin="anonymous"></script>
+  <script type="text/babel" src="tweaks-panel.jsx"></script>
+  <script type="text/babel" src="app.jsx"></script>
+</body>
+</html>

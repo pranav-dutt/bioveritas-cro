@@ -1,0 +1,248 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Contact — BioVeritas CRO</title>
+  <meta name="description" content="Speak to our scientific team. BioVeritas CRO is based in Noida, India and works with global sponsors across pharma, biotech, devices, and consumer health." />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Newsreader:ital,opsz,wght@0,6..72,400;0,6..72,500;0,6..72,600;1,6..72,500&family=Geist:wght@300;400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body data-page="contact">
+
+  <div id="site-header"></div>
+
+  <main>
+
+    <section class="page-hero" data-screen-label="Contact hero">
+      <div class="wrap">
+        <div class="crumb">
+          <a href="index.html">Home</a><span class="sep">/</span><span class="here">Contact</span>
+        </div>
+        <div class="ph-grid">
+          <div>
+            <span class="eyebrow">Start a conversation</span>
+            <h1 style="margin-top:22px;">Tell us what you're trying to <span class="em">learn.</span></h1>
+            <p class="lead">
+              Share a protocol sketch, a feasibility query, or just a development goal. We respond within
+              two working days with a scoping note — never a generic deck.
+            </p>
+          </div>
+          <div class="ph-meta">
+            <div class="m"><span class="k">Response time</span><span class="v">≤ 48 hours</span></div>
+            <div class="m"><span class="k">First reply from</span><span class="v">Scientific lead</span></div>
+            <div class="m"><span class="k">NDA</span><span class="v">Mutual · 24 hours</span></div>
+            <div class="m"><span class="k">Office hours</span><span class="v">Mon – Fri · 09:30 – 18:30 IST</span></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ═══ CONTACT GRID ═══ -->
+    <section data-screen-label="Contact body">
+      <div class="wrap">
+        <div class="contact-grid">
+
+          <!-- Form -->
+          <div>
+            <span class="eyebrow">Brief our team</span>
+            <h2 style="margin-top:18px;margin-bottom:32px;">Send us a project brief.</h2>
+
+            <form class="form" onsubmit="event.preventDefault(); alert('Thanks — we received your brief. A scientific lead will reply within two working days.');">
+              <div class="row">
+                <div class="group">
+                  <label for="name">Your name</label>
+                  <input id="name" type="text" placeholder="Dr. Jane Doe" required />
+                </div>
+                <div class="group">
+                  <label for="org">Organisation</label>
+                  <input id="org" type="text" placeholder="Sponsor name" required />
+                </div>
+              </div>
+
+              <div class="row">
+                <div class="group">
+                  <label for="email">Work email</label>
+                  <input id="email" type="email" placeholder="you@company.com" required />
+                </div>
+                <div class="group">
+                  <label for="phone">Phone (optional)</label>
+                  <input id="phone" type="tel" placeholder="+91 99..." />
+                </div>
+              </div>
+
+              <div class="row">
+                <div class="group">
+                  <label for="service">Service area</label>
+                  <select id="service">
+                    <option>Toxicology &amp; safety pharmacology</option>
+                    <option>In vitro &amp; cell-based studies</option>
+                    <option>In vivo pharmacology &amp; efficacy</option>
+                    <option>Bioanalytical &amp; biomarker testing</option>
+                    <option>Pharmacokinetics &amp; ADME</option>
+                    <option>Discovery &amp; NPD screening</option>
+                    <option>Clinical research (Phase I–IV)</option>
+                    <option>Regulatory &amp; strategic consulting</option>
+                    <option>New product development</option>
+                    <option>Other / not sure</option>
+                  </select>
+                </div>
+                <div class="group">
+                  <label for="stage">Program stage</label>
+                  <select id="stage">
+                    <option>Discovery / hit-to-lead</option>
+                    <option>Lead optimisation</option>
+                    <option>IND-enabling</option>
+                    <option>Phase I</option>
+                    <option>Phase II</option>
+                    <option>Phase III / pivotal</option>
+                    <option>Post-marketing</option>
+                    <option>NPD / formulation</option>
+                  </select>
+                </div>
+              </div>
+
+              <div class="group">
+                <label for="brief">Project brief</label>
+                <textarea id="brief" placeholder="Test article, indication, regulatory target, timeline constraints, any prior data we should know about..." required></textarea>
+              </div>
+
+              <div class="submit">
+                <div class="note">By submitting, you agree to our <a href="#" style="color:var(--accent);">privacy policy</a>. We treat all sponsor information as confidential.</div>
+                <button type="submit" class="btn btn-primary">Send brief
+                  <svg class="arrow" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M5 12h14M13 5l7 7-7 7"/></svg>
+                </button>
+              </div>
+            </form>
+          </div>
+
+          <!-- Contact info + map -->
+          <aside>
+            <span class="eyebrow">Find us</span>
+            <h2 style="margin-top:18px;margin-bottom:32px;font-size:clamp(28px, 3vw, 38px);">Reach us directly.</h2>
+
+            <div class="contact-card" style="margin-bottom:28px;">
+              <div class="line">
+                <div class="glyph">
+                  <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg>
+                </div>
+                <div>
+                  <div class="k">Office</div>
+                  <div class="v">BioVeritas CRO Pvt Ltd</div>
+                  <div class="sub">
+                    Ground Floor, B-14, Sector-132<br/>
+                    Noida, Uttar Pradesh<br/>
+                    India
+                  </div>
+                </div>
+              </div>
+
+              <div class="line">
+                <div class="glyph">
+                  <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"/></svg>
+                </div>
+                <div>
+                  <div class="k">Phone</div>
+                  <div class="v"><a href="tel:+919910663681">+91 99106 63681</a></div>
+                  <div class="sub">Mon – Fri · 09:30 – 18:30 IST</div>
+                </div>
+              </div>
+
+              <div class="line">
+                <div class="glyph">
+                  <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><path d="M22 6l-10 7L2 6"/></svg>
+                </div>
+                <div>
+                  <div class="k">Email</div>
+                  <div class="v"><a href="/cdn-cgi/l/email-protection#80e2e9eff6e5f2e9f4e1f3e3f2efc0e7ede1e9ecaee3efed"><span class="__cf_email__" data-cfemail="3d5f54524b584f54495c4e5e4f527d5a505c5451135e5250">[email&#160;protected]</span></a></div>
+                  <div class="sub">First reply from a scientific lead</div>
+                </div>
+              </div>
+            </div>
+
+            <!-- Map placeholder -->
+            <div class="map-ph" aria-label="Map of BioVeritas office, Sector-132, Noida">
+              <svg class="grid-svg" viewBox="0 0 400 300" preserveAspectRatio="none" aria-hidden="true">
+                <defs>
+                  <pattern id="mapGrid" width="40" height="40" patternUnits="userSpaceOnUse">
+                    <path d="M 40 0 L 0 0 0 40" fill="none" stroke="#0e2a47" stroke-opacity="0.12" stroke-width="1"/>
+                  </pattern>
+                </defs>
+                <rect width="400" height="300" fill="url(#mapGrid)"/>
+                <!-- Suggestive road lines -->
+                <path d="M0 130 L400 130" stroke="#0e2a47" stroke-opacity="0.18" stroke-width="6"/>
+                <path d="M0 200 L400 220" stroke="#0e2a47" stroke-opacity="0.14" stroke-width="3"/>
+                <path d="M150 0 L170 300" stroke="#0e2a47" stroke-opacity="0.16" stroke-width="4"/>
+                <path d="M260 0 L280 300" stroke="#0e2a47" stroke-opacity="0.10" stroke-width="2"/>
+                <!-- block hints -->
+                <rect x="40" y="160" width="60" height="35" fill="#0e2a47" fill-opacity="0.05"/>
+                <rect x="200" y="20" width="40" height="80" fill="#0e2a47" fill-opacity="0.06"/>
+                <rect x="300" y="170" width="70" height="40" fill="#0e2a47" fill-opacity="0.05"/>
+              </svg>
+              <div class="pin"><div class="pulse"></div></div>
+              <div class="pin-label">B-14, Sector-132, Noida</div>
+            </div>
+
+            <a class="btn btn-ghost" style="margin-top:18px;width:100%;justify-content:center;" target="_blank" rel="noopener" href="https://www.google.com/maps/search/?api=1&amp;query=B-14+Sector+132+Noida+Uttar+Pradesh">
+              Open in Google Maps
+              <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M7 17L17 7M7 7h10v10"/></svg>
+            </a>
+          </aside>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- ═══ FAQ ═══ -->
+    <section style="background:var(--soft); border-top:1px solid var(--line); border-bottom:1px solid var(--line);" data-screen-label="Contact FAQ">
+      <div class="wrap">
+        <div class="section-head">
+          <div class="titles">
+            <span class="eyebrow">Frequently asked</span>
+            <h2>What to expect when you reach out.</h2>
+          </div>
+          <div class="blurb">
+            <p class="lead">No sales funnels, no automated triage. Your first reply is from a scientist who can speak to the study itself.</p>
+          </div>
+        </div>
+
+        <div class="matrix">
+          <div class="matrix-row">
+            <div class="label">Response time</div>
+            <div class="content"><div class="text">We respond within <strong style="color:var(--ink);">two working days</strong> with a scoping note. For urgent feasibility queries, mention "urgent" in your subject and we'll prioritise.</div></div>
+          </div>
+          <div class="matrix-row">
+            <div class="label">Confidentiality</div>
+            <div class="content"><div class="text">A mutual NDA can be in place within 24 hours of request. We treat all sponsor information as confidential by default — even before formal agreements.</div></div>
+          </div>
+          <div class="matrix-row">
+            <div class="label">First meeting</div>
+            <div class="content"><div class="text">A 30-minute scientific call with the relevant service lead — not a sales rep. Bring your TPP, target indication, and any prior data; we'll bring study design ideas.</div></div>
+          </div>
+          <div class="matrix-row">
+            <div class="label">Quotation</div>
+            <div class="content"><div class="text">After the scoping call, you receive a written proposal with study design, timeline, deliverables, and pricing — typically within five working days.</div></div>
+          </div>
+          <div class="matrix-row">
+            <div class="label">Onboarding</div>
+            <div class="content"><div class="text">From contract signature to first dose is typically 4 – 6 weeks, depending on ethics-committee approval, protocol complexity, and test article availability.</div></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <div id="site-footer"></div>
+  <div id="tweak-root"></div>
+
+  <script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script><script src="chrome.js"></script>
+  <script src="https://unpkg.com/react@18.3.1/umd/react.development.js" integrity="sha384-hD6/rw4ppMLGNu3tX5cjIb+uRZ7UkRJ6BPkLpg4hAu/6onKUg4lLsHAs9EBPT82L" crossorigin="anonymous"></script>
+  <script src="https://unpkg.com/react-dom@18.3.1/umd/react-dom.development.js" integrity="sha384-u6aeetuaXnQ38mYT8rp6sbXaQe3NL9t+IBXmnYxwkUI2Hw4bsp2Wvmx4yRQF1uAm" crossorigin="anonymous"></script>
+  <script src="https://unpkg.com/@babel/standalone@7.29.0/babel.min.js" integrity="sha384-m08KidiNqLdpJqLq95G/LEi8Qvjl/xUYll3QILypMoQ65QorJ9Lvtp2RXYGBFj1y" crossorigin="anonymous"></script>
+  <script type="text/babel" src="tweaks-panel.jsx"></script>
+  <script type="text/babel" src="app.jsx"></script>
+</body>
+</html>
