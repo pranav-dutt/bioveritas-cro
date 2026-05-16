@@ -233,7 +233,7 @@ section.compact { padding: clamp(50px, 5vw, 80px) 0; }
 }
 .hero-meta .stat .n {
   font-family: var(--font-display);
-  font-size: 38px;
+  font-size: 30px;
   color: var(--ink);
   letter-spacing: -0.02em;
   line-height: 1;
@@ -1578,7 +1578,6 @@ section.compact { padding: clamp(50px, 5vw, 80px) 0; }
   letter-spacing: 0.1em;
   text-transform: uppercase;
   color: var(--accent);
-  margin-top: -8px;
 }
 .member p { font-size: 13.5px; color: var(--muted); }
 
